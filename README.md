@@ -1,6 +1,6 @@
 # JavaTetris4RL
 
-This is a Java Tetris game server that can be used for reinforcment learining. The server **TetrisMTServer.java** is multi-threaded and each thread has its own Tetris game. The Python client can connect to the server, create and control a Tetris game with ASCII commands, and receive status and screenshots from the server. You can also play the game by running **TetrisPlayer.java** as shown below. The Tetris game is adapted from [ZetCode](https://zetcode.com/javagames/tetris/).
+This is a Java Tetris game server that can be used for reinforcment learining. The server [TetrisMTServer.java](java_tetris_server/src/main/java/org/aiotlab/TetrisMTServer.java) is multi-threaded and each thread has its own Tetris game. The Python client can connect to the server, create and control a Tetris game with ASCII commands, and receive status and screenshots from the server. [TetrisClientTest.ipynb](python_notebooks/TetrisClientTest.ipynb) demonstrates how to control the server with Python socket. You can also play the game by running [TetrisPlayer.java](java_tetris_server/src/main/java/org/aiotlab/TetrisPlayer.java) as shown below. The Tetris game is adapted from [ZetCode](https://zetcode.com/javagames/tetris/).
 
 <img width=250 src="img/game_demo1.png" />
 
