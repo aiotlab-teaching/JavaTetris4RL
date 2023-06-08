@@ -12,12 +12,12 @@ We use a request-response pattern. The client sends command to the server first.
 
 The client command format is a keyword + ' ' + parameters.The main commands are listed below:
 
-| Command            | Description                               |
-|--------------------|-------------------------------------------|
-| start              | Start the game                            |
-| move [x]           | Move current piece X steps horizontally   |
-| rotate [0 \| 1]    | Rotate 0: counter-clockwise, 1: clockwise |
-| drop               | Drop current piece                        |
+| Command            | Description                                                      |
+|--------------------|------------------------------------------------------------------|
+| start              | Reset and start the game                                         |
+| move X             | Move current piece X steps horizontally. Ex: -1: left, 1:right   |
+| rotate CW          | CW=0: counter-clockwise (CCW); CW=1: clockwise (CW)              |
+| drop               | Drop current piece                                               |
 
 
 
