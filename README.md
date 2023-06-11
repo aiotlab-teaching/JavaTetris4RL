@@ -16,9 +16,10 @@ The client command format is a keyword + ' ' + parameters.The main commands are 
 |--------------------|------------------------------------------------------------------|
 | start              | Reset and start the game                                         |
 | move X             | Move current piece X steps horizontally. Ex: -1: left, 1:right   |
-| rotate CW          | CW=0: counter-clockwise (CCW); CW=1: clockwise (CW)              |
+| rotate CW [N]         | CW=0: counter-clockwise (CCW); CW=1: clockwise (CW). N:rotate times |
 | drop               | Drop current piece                                               |
 
+Since version 0.6, a user can rotate the block more than once before current piece going down. 
 
 
 ### Client <- Server
